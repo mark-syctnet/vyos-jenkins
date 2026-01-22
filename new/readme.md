@@ -94,13 +94,13 @@ and `new/data` directories).**
 Extra options for package build:
 
 ```bash
-~/vyos-jenkins/new/package_builder.py circinus --clone-org vyos
+~/vyos-jenkins/new/package_builder.py --analyze-org vyos --clone-org vyos circinus
 ```
 
 Extra options for image build:
 
 ```bash
-~/vyos-jenkins/new/image_builder.py circinus --clone-org vyos
+~/vyos-jenkins/new/image_builder.py --clone-org vyos circinus
 ```
 
 Extra options
